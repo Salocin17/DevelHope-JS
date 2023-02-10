@@ -4,8 +4,6 @@ const person = {
   age: 25
 }
 
-console.log(Object.keys(person));
-console.log(Object.values(person));
-console.log(Object.entries(person))
-
-//Ammetto di non aver capito cosa volesse di preciso l'esercizio 
+for (let [key, val] of Object.entries(person)) {
+  console.log(key + ": " + val);
+}
