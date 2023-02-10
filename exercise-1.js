@@ -1,10 +1,6 @@
-function adultFilter(persons) {
-  for (let i = 0; i < 10; i++) {
-    let element = "";
-    if (persons[i].age > 18){
-      return element = persons[i];
-    }
-  }
+function adultFilter() {
+  let aged = persons.filter((element) => element.age > 18);
+  return (aged)
 }
 
 const persons = [
