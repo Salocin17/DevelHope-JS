@@ -1,7 +1,12 @@
 const order = {
+  customer: "Nicolas",
+  address: "Via del corso",
+  city: "",
 }
 
 
-if (!order.customer?.address?.city) {
-  console.log('City is required');
+if (order.city) {
+  console.log('City present');
+} else {
+  console.log('City is required')
 }
