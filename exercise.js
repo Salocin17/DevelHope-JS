@@ -1,10 +1,6 @@
 
+const printHello = () => console.log('Hello');
 
-const printHello = () => { console.log('Hello') };
+const repeatHello = (callback) =>  setInterval(callback, 1000);
 
-const printAsyncName = (callback, myName) => {
-    setTimeout(callback, 1000);
-    setTimeout(() => console.log(myName), 2000);
-}
-
-printAsyncName(printHello, 'Nicolas');
+repeatHello(printHello);
