@@ -1,8 +1,4 @@
-# Exercise Async Callback
+# Exercise Promise
 
-Starting from the previous exercise, we want to add to our function `repeatHello`, a `clearInterval` after 5 seconds, could you do that?
-
-Tips:
-
-- The `setInterval` and `setTimeout` methods will be useful
-- The callback function must be an arrow function, can you also explain why?
+Write a `promise`. If the variable called `number` is greater than 10, then it returns a resolve, otherwise it returns a reject.
+Then manage the promise with `then` and `catch` in case of any reject.

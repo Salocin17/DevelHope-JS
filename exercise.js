@@ -1,8 +1,11 @@
-const printHello = () => console.log("Hello");
+const number = 15;
 
-function repeatHello (callback) { 
-    const repeat = setInterval(callback, 1000);
-    setTimeout(() => clearInterval(repeat), 5000);
-}
+const myPromise = new Promise ((resolve, reject) => {
+    number > 10 ? resolve(number) : reject(error);
+    } );
 
-repeatHello(printHello);
+myPromise.then(() => console.log('success'))
+        .catch(() => console.error('error'));
+
+
+
