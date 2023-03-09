@@ -1,6 +1,8 @@
+const printHello = () => console.log("Hello");
 
-const printHello = () => console.log('Hello');
-
-const repeatHello = (callback) =>  setInterval(callback, 1000);
+function repeatHello (callback) { 
+    const repeat = setInterval(callback, 1000);
+    setTimeout(() => clearInterval(repeat), 5000);
+}
 
 repeatHello(printHello);
