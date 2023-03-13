@@ -8,6 +8,8 @@ function uncompletedNotes(notes) {
   return todos;
 }
 
+// non avevo visto di non aver caricato un vecchio esercizio 
+
 const notes = [
   {
     id: 1,
