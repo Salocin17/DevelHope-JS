@@ -1,7 +1,7 @@
-# Exercise Promise errors
+# Network Requests - Exercise 2
 
-Starting from the previous exercise, try to better handle all errors through the `Error` class and the `catch` method. Also add the `finally` method.
+Using async and await, implement the necessary code to recover the Todo with ID 4 through the following URL: https://jsonplaceholder.typicode.com/todos/4 . Then create two elements:
+-An `<h2>` element containing the Todo title (`title` property)
+-An `<Input Type = "Checkbox">` with the `checked` property set to the value present on the `completed` property of the Todo
 
-Tips:
-
-- Error documentation: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Error
+Append the two elements previously created inside the container.
